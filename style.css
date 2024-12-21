@@ -1,0 +1,75 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero-section{
+
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(#6e807e,#21b3a3);
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+.selector{
+
+    width: 250px;
+}
+
+.selector .menu-list{
+
+    width: 100%;
+    color:black;
+    box-sizing: border-box;
+    padding: 10px 20px;
+    background-color: #fff;
+   border-radius: 5px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+    
+}
+
+.image{
+
+    width: 14px;
+    cursor: pointer;
+}
+
+.list{
+    width: 250px;
+    background-color: #fff;
+    border-radius: 5px;
+    margin-top: 9px;
+    display: none;
+    transition: linear 0.2s;   
+}
+
+
+.list li{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    line-height: 40px;
+    text-align: start;
+    transition: linear 0.3s;
+}
+.list li img{
+
+    width: 20px;
+}
+
+.twitter{
+    margin-left: -15px;
+}
+
+.option:hover{
+
+    background-color: rgb(209, 199, 199)
+}
